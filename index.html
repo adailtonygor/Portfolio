@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+<!-- Bix Icons-->
+    <link rel="stylesheet"
+    href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">Adailton</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+</nav>
+<!-- Main Text And Image-->
+<section id="home">
+    <div class="home-text">
+        <h1>Hy, I'm <br>Adailton <span>Ygor</span> <br> Web Developer</h1>
+    <!-- Button -->
+    <a href="https://wa.me/5562994195093">Hire Me</a>
+ </div>
+<!-- Home Image-->
+<div class="home-img">
+
+<img src="./images/imagePortfolio.png" alt="image" >
+    
+</div>
+<!-- Social -->
+<div class="social">
+    <a href="https://www.linkedin.com/in/adailton-ygor/"><i class='bx bxl-linkedin'></a></i>
+    <a href="https://www.instagram.com/adailton.yg10/"><i class='bx bxl-instagram'></a></i>
+    <a href="https://github.com/adailtonygor"><i class='bx bxl-github'></a></i>
+</div>
+</section>
+
+<!-- About Section-->
+<section id="about">
+    <!-- Heading -->
+    <div class="heading">
+        <h2>About</h2>
+        <p>My Introduction</p>
+    </div>
+    <!-- About Content -->
+    <div class="about-content">
+        <div class="about-img">
+            <img src="./images/imagePortfolio.png" alt=""  >
+        </div>
+        <div class="about-text">
+            <h1>I'm Adailton</h1>
+            <p> Tenho 22 anos. Moro em Goiânia, Atualmente estou cursando ADS. Estou em busca de uma vaga no mercado de desenvolvedor web. </p>
+        <!-- Button -->
+        <a href="https://drive.google.com/file/d/1g0CwGWDx0KJyqzIixs5JSxIuZaT6A2xD/view?usp=sharing">Download Cv</a>
+        </div>
+    </div>
+</section>
+<!-- Services-->
+<section id="services">
+    <!-- Heading-->
+    <div class="heading">
+        <h2>Services</h2>
+        <p>Services we offer.</p>
+    </div>
+    <div class="services-content">
+        <!--Box-->
+        <div class="box">
+            
+            <img src="./images/logo-html-5-256.png" >
+            <h1>HTML </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis quibusdam sunt sit ab iste dolores quia repellendus exercitationem!</p>
+        </div>
+        <!--Box-->
+        <div class="box">
+            
+            <img src="./images/logo-css-3-256.png" >
+            <h1>CSS </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis quibusdam sunt sit ab iste dolores quia repellendus exercitationem!</p>
+        </div>
+        <!--Box-->
+        <div class="box">
+            
+            <img src="./images/logo-javascript-icon-256.png" >
+            <h1>JavaScript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis quibusdam sunt sit ab iste dolores quia repellendus exercitationem!</p>
+        </div>
+        <!--Box-->
+        <div class="box">
+            
+            <img src="./images/logo-react-256.png" >
+            <h1>React </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis quibusdam sunt sit ab iste dolores quia repellendus exercitationem!</p>
+        </div>
+    </div>
+</section>
+<!-- Work Section -->
+<section id="work">
+    <div class="heading">
+        <h2>Work</h2>
+        <p>Work With Us</p>
+    </div>
+    <div class="work-content">
+        <div class="work-text">
+            <h1>We Believe To Deliver Best <br> Quality Work</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non culpa vitae animi deleniti ex tempora ullam numquam expedita sint accusamus omnis quos quisquam autem laudantium odit impedit eaque, ratione reprehenderit soluta ab porro consectetur! A distinctio fuga eum sunt qui vitae, facilis minima ipsam animi aliquam corporis libero minus optio, corrupti possimus magni rem molestias porro consequatur aspernatur incidunt aperiam.</p>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div class="work-img">
+            <img src="./images/imagePortfolio.png">
+        </div>
+    </div>
+</section>
+<!-- Contact -->
+<section id="contact">
+    <div class="heading color">
+        <h2>Contact</h2>
+        <p>Leave a message we will try to reply in 24 hours.</p>
+    </div>
+    <div class="contact-content">
+        <div class="app">
+            <h1>Connect With Us <br> By Our Apps</h1>
+            <a href="#"><i class="bx bxl-play-store" ></i></a>
+            <a href="#"><i class="bx bxl-apple" ></i></a>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Your E-mail">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Copyright -->
+<div class="copyright">
+    <p>&#169; Portfolio Adailton Ygor</p>
+</div>
+<!-- Scroll Animation -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- link To Js -->
+<script src="main.js"></script>
+
+    
+</body>
+</html>
