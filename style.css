@@ -94,7 +94,7 @@ ul li a:hover{
     height: 100%;
     object-fit: contain;
     object-position: center;
-    border-radius: 300px;
+    border-radius: 74% 26% 75% 25% / 56% 53% 47% 44 %  ;
 }
 .home-text a {
     padding: 12px 34px;
@@ -151,8 +151,8 @@ ul li a:hover{
     height: 100%;
     object-fit: contain;
     object-position: center;
-    border-radius: 300px;
-}
+    border-radius:  69% 31% 31% 69% / 55% 47% 53% 45%;
+ }
 .about-text{
     width: 500px;
     justify-content: center;
@@ -250,6 +250,7 @@ ul li a:hover{
     height: 100%;
     object-fit: contain;
     object-position: center;
+   border-radius:52% 48% 38% 62% / 35% 44% 56% 65%;
 }
 /* Contact */
 .heading.color h2 {
